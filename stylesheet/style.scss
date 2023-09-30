@@ -21,6 +21,15 @@ button {
 
 button {
   margin-top: 12px;
+  cursor: pointer;
+}
+
+.succes_message {
+  display: none;
+  border: solid black 2px;
+  button {
+    width: 100%;
+  }
 }
 
 footer {
