@@ -1,1 +1,29 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 325px;
+}
+
+input,
+button {
+  padding: 10px;
+}
+
+button {
+  margin-top: 12px;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */
