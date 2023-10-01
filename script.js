@@ -20,11 +20,11 @@ const message = document.getElementsByClassName("succes_message");
 
 // Add listeners to all of them:
 buttons.forEach((button) => {
-  button.addEventListener("click", toggle);
+  button.addEventListener("click", toggleMe);
 });
 
 // When button is clicked toggle display
-function toggle() {
+function toggleMe() {
   if (message.display.style === "none") {
     message.display.style === "block";
   } else {
@@ -32,4 +32,4 @@ function toggle() {
   }
 }
 
-toggle();
+toggleMe();
