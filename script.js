@@ -15,21 +15,19 @@ Your users should be able to:
 // Select all the buttons:
 const buttons = document.querySelectorAll("buttons");
 
-// Select Succes Message:
-const message = document.getElementsByClassName("succes_message");
-
 // Add listeners to all of them:
 buttons.forEach((button) => {
-  button.addEventListener("click", toggleMe);
+  button.addEventListener("click", toggle);
 });
 
 // When button is clicked toggle display
-function toggleMe() {
-  if (message.display.style === "none") {
-    message.display.style === "block";
+function toggle() {
+  const message = document.getElementsByClassName("succes_message");
+  if (message.style.display === "none") {
+    message.style.display === "block";
   } else {
-    message.display.style === "none";
+    message.style.display === "none";
   }
 }
 
-toggleMe();
+toggle();
