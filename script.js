@@ -17,10 +17,10 @@ const buttons = document.querySelectorAll("buttons");
 
 // Add listeners to all of them:
 buttons.forEach((button) => {
-  button.addEventListener("click", toggle);
+  button.addEventListener(click, toggle);
 });
 
-// When button is clicked toggle display
+// When button is clicked toggle between displays
 function toggle() {
   const message = document.getElementsByClassName("succes_message");
   if (message.style.display === "none") {
