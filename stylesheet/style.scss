@@ -24,10 +24,16 @@ button {
   cursor: pointer;
 }
 
+// Toggle this on and off in JS
 .succes_message {
-  // Toggle this on and off in JS
-  display: none;
-  border: solid black 2px;
+  //display: none;
+  background-color: white;
+  position: absolute;
+  inset: 0;
+  padding: 250px 30px 0px;
+  b {
+    font-size: 40px;
+  }
   button {
     width: 100%;
   }
