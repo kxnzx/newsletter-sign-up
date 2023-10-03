@@ -39,6 +39,10 @@ button {
   margin-top: 200px;
 }
 
+.show_message {
+  display: block;
+}
+
 footer {
   bottom: 0;
   position: absolute;

@@ -20,12 +20,12 @@ function toggleMenu() {
   // If it's true that the menu class contains the showMenu class, do this:
   if (message.classList.contains("show_message")) {
     // Execute this block of code if the specified condition is true:
-    menu.classList.remove("showMenu");
+    message.classList.remove("show_message");
   }
   // If it's false that the menu class contains the showMenu class, do this:
   else {
     // Execute this block of code if the specified condition is false:
-    menu.classList.add("show_message");
+    message.classList.add("show_message");
   }
 }
 
