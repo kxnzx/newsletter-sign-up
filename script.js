@@ -12,22 +12,5 @@ Your users should be able to:
 
 "use strict";
 
-// Select all the buttons:
-const buttons = document.querySelectorAll("buttons");
-
-// Add listeners to all of them:
-buttons.forEach((button) => {
-  button.addEventListener(click, toggle);
-});
-
-// When button is clicked toggle between displays
-function toggle() {
-  const message = document.getElementsByClassName("succes_message");
-  if (message.style.display === "none") {
-    message.style.display === "block";
-  } else {
-    message.style.display === "none";
-  }
-}
-
-toggle();
+const submit = document.getElementById("submit_button");
+const message = document.getElementsByClassName("succes_message");
