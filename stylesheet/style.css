@@ -20,8 +20,11 @@ button {
 }
 
 button {
-  margin-top: 12px;
   cursor: pointer;
+}
+
+#submit_button {
+  margin-top: 12px;
 }
 
 .succes_message {
@@ -39,7 +42,7 @@ button {
   margin-top: 200px;
 }
 
-.show_message {
+.display_message {
   display: block;
 }
 

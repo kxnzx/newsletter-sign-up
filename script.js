@@ -11,23 +11,20 @@ Your users should be able to:
 */
 
 "use strict";
-
-const submit = document.getElementById("submit_button");
 const message = document.getElementsByClassName("succes_message");
+const submit = document.getElementById("submit_button");
 
 // FUNCTION
-function toggleMenu() {
-  // If it's true that the menu class contains the showMenu class, do this:
-  if (message.classList.contains("show_message")) {
+function toggle() {
+  // If it's true that the class message contains the class display_message, do this:
+  if (message.classList.contains("display_message")) {
     // Execute this block of code if the specified condition is true:
-    message.classList.remove("show_message");
-  }
-  // If it's false that the menu class contains the showMenu class, do this:
-  else {
+    message.classList.remove("display_message");
+  } else {
     // Execute this block of code if the specified condition is false:
-    message.classList.add("show_message");
+    message.classList.add("display_message");
   }
 }
 
-// When the toggle button is clicked, the function toggleMenu() will be called, it will check if the menu contains the class showMenu
-submit.addEventListener("click", toggleMenu);
+// When the toggle button is clicked, the function toggle() will be called, it will check if the message contains the class display_message
+submit.addEventListener("click", toggle);
