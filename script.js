@@ -26,5 +26,5 @@ function toggle() {
   }
 }
 
-// When the toggle button is clicked, the function toggle() will be called, it will check if the message contains the class display_message
+// When the submit button is clicked, the function toggle() will be called, it will check if the class .succes_message contains the class .display_message
 submit.addEventListener("click", toggle);
