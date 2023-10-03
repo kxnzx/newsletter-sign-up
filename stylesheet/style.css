@@ -34,6 +34,7 @@ button {
 }
 
 .succes_message {
+  display: none;
   background-color: white;
   position: absolute;
   inset: 0;
