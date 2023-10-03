@@ -14,3 +14,20 @@ Your users should be able to:
 
 const submit = document.getElementById("submit_button");
 const message = document.getElementsByClassName("succes_message");
+
+// FUNCTION
+function toggleMenu() {
+  // If it's true that the menu class contains the showMenu class, do this:
+  if (message.classList.contains("show_message")) {
+    // Execute this block of code if the specified condition is true:
+    menu.classList.remove("showMenu");
+  }
+  // If it's false that the menu class contains the showMenu class, do this:
+  else {
+    // Execute this block of code if the specified condition is false:
+    menu.classList.add("show_message");
+  }
+}
+
+// When the toggle button is clicked, the function toggleMenu() will be called, it will check if the menu contains the class showMenu
+submit.addEventListener("click", toggleMenu);
