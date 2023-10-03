@@ -11,12 +11,12 @@ Your users should be able to:
 */
 
 "use strict";
-const message = document.getElementsByClassName("succes_message");
 const submit = document.getElementById("submit_button");
+const message = document.getElementsByClassName("succes_message");
 
 // FUNCTION
 function toggle() {
-  // If it's true that the class message contains the class display_message, do this:
+  // If it's true that the class .succes_message contains the class .display_message, do this:
   if (message.classList.contains("display_message")) {
     // Execute this block of code if the specified condition is true:
     message.classList.remove("display_message");
