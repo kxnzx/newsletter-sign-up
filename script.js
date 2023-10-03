@@ -11,6 +11,7 @@ Your users should be able to:
 */
 
 "use strict";
+
 const submit = document.getElementById("submit_button");
 const message = document.getElementsByClassName("succes_message");
 
