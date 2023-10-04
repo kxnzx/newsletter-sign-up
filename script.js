@@ -13,7 +13,8 @@ Your users should be able to:
 "use strict";
 
 const submit = document.getElementById("submit_button");
-const message = document.getElementsByClassName("succes_message");
+const message = document.getElementById("succes_message");
+const form = document.getElementById("form");
 
 // FUNCTION
 function toggle(event) {
@@ -29,4 +30,4 @@ function toggle(event) {
 }
 
 // When the submit button is clicked, the function toggle() will be called, it will check if the class .succes_message contains the class .display_message
-submit.addEventListener("click", toggle);
+form.addEventListener("click", toggle);
