@@ -31,3 +31,25 @@ function toggle(event) {
 
 // When the submit button is clicked, the function toggle() will be called, it will check if the class .succes_message contains the class .display_message
 submit.addEventListener("click", toggle);
+
+/*
+"use strict";
+
+const submit = document.getElementById("submit_button");
+const form = document.getElementById("form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const message = document.getElementById("succes_message");
+
+  // If it's true that the class .succes_message contains the class .display_message, do this:
+  if (message.classList.contains("display_message")) {
+    // Execute this block of code if the specified condition is true:
+    message.classList.remove("display_message");
+  } else {
+    // Execute this block of code if the specified condition is false:
+    message.classList.add("display_message");
+  }
+});
+*/
