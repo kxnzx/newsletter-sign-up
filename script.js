@@ -14,7 +14,7 @@ Your users should be able to:
 
 const submit = document.getElementById("submit_button");
 const message = document.getElementById("succes_message");
-const form = document.getElementById("form");
+//const form = document.getElementById("form");
 
 // FUNCTION
 function toggle(event) {
@@ -30,4 +30,4 @@ function toggle(event) {
 }
 
 // When the submit button is clicked, the function toggle() will be called, it will check if the class .succes_message contains the class .display_message
-form.addEventListener("click", toggle);
+submit.addEventListener("click", toggle);
