@@ -54,7 +54,7 @@ button {
 }
 
 .display_message {
-  display: block;
+  display: block !important;
 }
 
 footer {

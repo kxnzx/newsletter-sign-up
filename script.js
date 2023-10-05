@@ -14,6 +14,7 @@ Your users should be able to:
 
 const submit = document.getElementById("submit_button");
 const message = document.getElementById("succes_message");
+const dismiss = document.getElementById("dismiss_button");
 //const form = document.getElementById("form");
 
 // FUNCTION
