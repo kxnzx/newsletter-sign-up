@@ -15,7 +15,6 @@ Your users should be able to:
 const submit = document.getElementById("submit_button");
 const message = document.getElementById("succes_message");
 const dismiss = document.getElementById("dismiss_button");
-//const form = document.getElementById("form");
 
 // FUNCTION
 function toggle(event) {
@@ -28,6 +27,10 @@ function toggle(event) {
     // Execute this block of code if the specified condition is false:
     message.classList.add("display_message");
   }
+}
+
+function close() {
+  message.classList.remove("display_message");
 }
 
 // When the submit button is clicked, the function toggle() will be called, it will check if the class .succes_message contains the class .display_message
