@@ -12,10 +12,39 @@ Your users should be able to:
 
 "use strict";
 
+const form = document.getElementById("form");
 const submit = document.getElementById("submit_button");
 const message = document.getElementById("succes_message");
 const dismiss = document.getElementById("dismiss_button");
 
+// FUNCTION for Input
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const email = form["email"].value;
+  // When the input is empty do this:
+  if (email === "") {
+    addError("email", "Email cannot be empty");
+    // When the input is invalid check REGEX and do this:
+  } else if (!isValid(email)) {
+    addError("email", "Looks like this is not an email");
+    // When the input is valid, do this:
+  } else {
+    removeError("email");
+  }
+});
+
+// Add Error Message & Icon
+function addError(field, message) {
+  const formControl = form[field].parentNode;
+  formControl.classList.add("error");
+  const small = form[field].parentNode.querySelector("small");
+  small.innerText = message;
+}
+// Remove Error Message & Icon
+function removeError(field) {
+  const formControl = form[field].parentNode;
+  formControl.classList.remove("error");
+}
 // FUNCTION
 function toggle(event) {
   event.preventDefault();
@@ -38,24 +67,9 @@ submit.addEventListener("click", toggle);
 
 dismiss.addEventListener("click", close);
 
-/*
-"use strict";
-
-const submit = document.getElementById("submit_button");
-const form = document.getElementById("form");
-
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-
-  const message = document.getElementById("succes_message");
-
-  // If it's true that the class .succes_message contains the class .display_message, do this:
-  if (message.classList.contains("display_message")) {
-    // Execute this block of code if the specified condition is true:
-    message.classList.remove("display_message");
-  } else {
-    // Execute this block of code if the specified condition is false:
-    message.classList.add("display_message");
-  }
-});
-*/
+// REGEX = Regular Expression
+function isValid(email) {
+  const re =
+    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
+}
