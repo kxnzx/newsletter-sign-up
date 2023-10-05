@@ -20,6 +20,10 @@ form {
   max-width: 32.5rem;
 }
 
+#error {
+  display: block;
+}
+
 input,
 button {
   padding: 1rem;

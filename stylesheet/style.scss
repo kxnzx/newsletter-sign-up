@@ -20,6 +20,14 @@ form {
   max-width: 32.5rem;
 }
 
+#error {
+  display: block;
+  color: $red;
+  font-style: italic;
+  text-align: right;
+  font-size: 0.75rem;
+}
+
 input,
 button {
   padding: 1rem;
