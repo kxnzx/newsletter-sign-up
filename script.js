@@ -19,6 +19,7 @@ const dismiss = document.getElementById("dismiss_button");
 
 // FUNCTION for Input
 form.addEventListener("submit", (e) => {
+  // This tells the browser to prevent the form from submitting by default:
   e.preventDefault();
   const email = form["email"].value;
   // When the input is empty do this:
