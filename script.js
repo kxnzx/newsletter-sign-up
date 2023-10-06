@@ -44,6 +44,7 @@ function isValidEmail(emailInput) {
 function close() {
   message.classList.remove("display_message");
   document.getElementById("email").value = "";
+  window.location.reload();
 }
 
 dismiss.addEventListener("click", close);
