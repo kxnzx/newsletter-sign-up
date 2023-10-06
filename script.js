@@ -28,18 +28,24 @@ form.addEventListener("submit", (e) => {
   // When the input is empty or invalid, do this:
   if (!isValidEmail(emailInput)) {
     form.classList.add("error");
-    small.innerText = "Please provide a valid email";
+    small.innerText = "Valid email required";
 
     // When the input is valid, do this:
   } else {
     form.classList.remove("error");
-    document.body.innerHTML = "Thank You! We will keep you updated!";
+    message.classList.add("display_message");
   }
 });
 // REGEX = Regular Expression
 function isValidEmail(emailInput) {
   return /^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}$/.test(emailInput);
 }
+
+function close() {
+  message.classList.remove("display_message");
+}
+
+dismiss.addEventListener("click", close);
 
 /*
 
