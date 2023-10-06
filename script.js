@@ -18,8 +18,8 @@ const message = document.getElementById("succes_message");
 const dismiss = document.getElementById("dismiss_button");
 const email = document.getElementById("email");
 
-// This tells the browser to prevent the form from submitting by default:
 form.addEventListener("submit", (e) => {
+  // This tells the browser to prevent the form from submitting by default:
   e.preventDefault();
 
   const emailInput = email.value;
