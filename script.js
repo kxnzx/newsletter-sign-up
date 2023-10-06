@@ -16,6 +16,7 @@ const form = document.getElementById("form");
 const message = document.getElementById("succes_message");
 const dismiss = document.getElementById("dismiss_button");
 
+// Listen for events on form:
 form.addEventListener("submit", (e) => {
   // This tells the browser to prevent the form from submitting by default:
   e.preventDefault();
@@ -39,6 +40,7 @@ function isValidEmail(emailInput) {
   return /^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}$/.test(emailInput);
 }
 
+// Function for Dismiss Button
 function close() {
   message.classList.remove("display_message");
   document.getElementById("email").value = "";
