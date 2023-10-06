@@ -43,6 +43,7 @@ function isValidEmail(emailInput) {
 
 function close() {
   message.classList.remove("display_message");
+  document.getElementById("email").value = "";
 }
 
 dismiss.addEventListener("click", close);
