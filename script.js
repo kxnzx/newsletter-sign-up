@@ -13,10 +13,8 @@ Your users should be able to:
 "use strict";
 
 const form = document.getElementById("form");
-const submit = document.getElementById("submit_button");
 const message = document.getElementById("succes_message");
 const dismiss = document.getElementById("dismiss_button");
-const email = document.getElementById("email");
 
 form.addEventListener("submit", (e) => {
   // This tells the browser to prevent the form from submitting by default:
