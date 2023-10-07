@@ -15,6 +15,7 @@ Your users should be able to:
 const form = document.getElementById("form");
 const message = document.getElementById("succes_message");
 const dismiss = document.getElementById("dismiss_button");
+const mirror = document.getElementById("users_email");
 
 // Listen for events on form:
 form.addEventListener("submit", (e) => {
