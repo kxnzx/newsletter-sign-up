@@ -15,7 +15,13 @@ Your users should be able to:
 const form = document.getElementById("form");
 const message = document.getElementById("succes_message");
 const dismiss = document.getElementById("dismiss_button");
+const email = document.getElementById("email");
 const mirror = document.getElementById("users_email");
+
+// Mirror input into succes message:
+email.addEventListener("input", function (event) {
+  mirror.innerText = event.target.value.split("").join("");
+});
 
 // Listen for events on form:
 form.addEventListener("submit", (e) => {
