@@ -18,9 +18,9 @@ const dismiss = document.getElementById("dismiss_button");
 const email = document.getElementById("email");
 const mirror = document.getElementById("users_email");
 
-// Mirror input into succes message:
-email.addEventListener("input", function (event) {
-  mirror.innerText = event.target.value.split("").join("");
+// Mirror the input into succes message:
+email.addEventListener("input", (e) => {
+  mirror.innerText = e.target.value.split("").join("");
 });
 
 // Listen for events on form:
