@@ -22,9 +22,6 @@ form {
 
 #error {
   display: block;
-  //color: $red;
-  //font-style: italic;
-  //font-size: 0.75rem;
 }
 
 input,
@@ -40,13 +37,8 @@ button {
   margin-top: 1.2rem;
 }
 
-// Add this class in JS
-.display_message {
-  display: block !important;
-}
-
 // Toggle this class on and off in JS
-#succes_message {
+.succes_message {
   display: none;
   background-color: white;
   position: absolute;
@@ -69,6 +61,11 @@ button {
       margin-top: 20rem;
     }
   }
+}
+
+// Add this class in JS
+.display_message {
+  display: block;
 }
 
 footer {

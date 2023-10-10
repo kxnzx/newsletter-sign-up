@@ -13,8 +13,8 @@ Your users should be able to:
 "use strict";
 
 const form = document.getElementById("form");
-const message = document.getElementById("succes_message");
-//const message = document.querySelector(".succes_message");
+//const message = document.getElementById("succes_message");
+const message = document.querySelector(".succes_message");
 const dismiss = document.getElementById("dismiss_button");
 const email = document.getElementById("email");
 const mirror = document.getElementById("users_email");
