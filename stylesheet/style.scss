@@ -22,10 +22,9 @@ form {
 
 #error {
   display: block;
-  color: $red;
-  font-style: italic;
-  text-align: right;
-  font-size: 0.75rem;
+  //color: $red;
+  //font-style: italic;
+  //font-size: 0.75rem;
 }
 
 input,
@@ -43,7 +42,7 @@ button {
 
 // Add this class in JS
 .display_message {
-  display: block;
+  display: block !important;
 }
 
 // Toggle this class on and off in JS

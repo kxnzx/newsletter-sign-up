@@ -37,6 +37,10 @@ button {
   margin-top: 1.2rem;
 }
 
+.display_message {
+  display: block !important;
+}
+
 #succes_message {
   display: none;
   background-color: white;
@@ -52,13 +56,12 @@ button {
 #succes_message .container b {
   font-size: 4rem;
 }
+#succes_message .container p span {
+  font-weight: bold;
+}
 #succes_message .container button {
   width: 100%;
   margin-top: 20rem;
-}
-
-.display_message {
-  display: block !important;
 }
 
 footer {
