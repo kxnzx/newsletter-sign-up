@@ -41,6 +41,11 @@ button {
   margin-top: 1.2rem;
 }
 
+// Add this class in JS
+.display_message {
+  display: block;
+}
+
 // Toggle this class on and off in JS
 #succes_message {
   display: none;
@@ -65,11 +70,6 @@ button {
       margin-top: 20rem;
     }
   }
-}
-
-// Add this class in JS
-.display_message {
-  display: block !important;
 }
 
 footer {
