@@ -68,7 +68,9 @@ body {
   min-height: 100vh;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.6rem;
+  font-size: $fs_bodyCopy;
+  font-family: $ff;
+  color: $dark_slate_grey;
 }
 
 .wrapper {
@@ -81,6 +83,10 @@ header {
   height: 28.5rem;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+
+main {
+  padding: 4.5rem 2.5rem 4rem 2.5rem;
 }
 
 form {

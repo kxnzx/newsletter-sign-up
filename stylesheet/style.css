@@ -43,6 +43,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: hsl(234deg, 29%, 20%);
 }
 
 .wrapper {
@@ -55,6 +57,10 @@ header {
   height: 28.5rem;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+
+main {
+  padding: 4.5rem 2.5rem 4rem 2.5rem;
 }
 
 form {
