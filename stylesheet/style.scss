@@ -90,15 +90,20 @@ main {
   p {
     margin-top: 2.5rem;
   }
+
   ul {
     display: flex;
     flex-direction: column;
     margin-top: 2.5rem;
+    li {
+      border: solid 1px black;
+    }
     li:not(:first-child) {
       margin-top: 1.5rem;
     }
     li:before {
       content: url(../assets/images/icon-list.svg);
+      padding: 4rem;
     }
   }
 }

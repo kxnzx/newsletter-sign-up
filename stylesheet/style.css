@@ -70,11 +70,15 @@ main ul {
   flex-direction: column;
   margin-top: 2.5rem;
 }
+main ul li {
+  border: solid 1px black;
+}
 main ul li:not(:first-child) {
   margin-top: 1.5rem;
 }
 main ul li:before {
   content: url(../assets/images/icon-list.svg);
+  padding: 4rem;
 }
 
 form {
