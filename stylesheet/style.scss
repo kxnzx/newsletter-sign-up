@@ -87,6 +87,20 @@ header {
 
 main {
   padding: 4.5rem 2.5rem 4rem 2.5rem;
+  p {
+    margin-top: 2.5rem;
+  }
+  ul {
+    border: solid 2px black;
+    margin-top: 2.5rem;
+    li:not(:first-child) {
+      margin-top: 1.5rem;
+      color: pink;
+    }
+    li:before {
+      content: url(../assets/images/icon-list.svg);
+    }
+  }
 }
 
 form {

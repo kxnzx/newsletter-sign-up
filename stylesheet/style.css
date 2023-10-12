@@ -62,6 +62,20 @@ header {
 main {
   padding: 4.5rem 2.5rem 4rem 2.5rem;
 }
+main p {
+  margin-top: 2.5rem;
+}
+main ul {
+  border: solid 2px black;
+  margin-top: 2.5rem;
+}
+main ul li:not(:first-child) {
+  margin-top: 1.5rem;
+  color: pink;
+}
+main ul li:before {
+  content: url(../assets/images/icon-list.svg);
+}
 
 form {
   display: flex;
