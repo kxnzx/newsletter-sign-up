@@ -46,7 +46,7 @@ body {
   font-size: 1.6rem;
 }
 
-main {
+.wrapper {
   width: 37.5rem;
   border: solid black 2px;
 }
