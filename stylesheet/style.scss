@@ -92,10 +92,14 @@ main {
   }
   ul {
     border: solid 2px black;
+    display: flex;
+    flex-direction: column;
     margin-top: 2.5rem;
+    li {
+      border: solid 2px black;
+    }
     li:not(:first-child) {
       margin-top: 1.5rem;
-      color: pink;
     }
     li:before {
       content: url(../assets/images/icon-list.svg);
