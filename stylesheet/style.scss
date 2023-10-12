@@ -61,10 +61,9 @@ p {
 }
 
 // STYLES
-
 body {
   display: flex;
-  align-items: center;
+  //align-items: center; // center vertically
   justify-content: center;
   min-height: 100vh;
   margin-left: auto;
@@ -75,6 +74,13 @@ body {
 .wrapper {
   width: 37.5rem;
   border: solid black 2px;
+}
+
+header {
+  background-color: $tomato;
+  height: 28.5rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 form {

@@ -38,7 +38,6 @@ p {
 
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
   min-height: 100vh;
   margin-left: auto;
@@ -49,6 +48,13 @@ body {
 .wrapper {
   width: 37.5rem;
   border: solid black 2px;
+}
+
+header {
+  background-color: hsl(4deg, 100%, 67%);
+  height: 28.5rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 form {
