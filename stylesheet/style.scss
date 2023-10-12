@@ -1,12 +1,22 @@
 // GOOGLE FONTS
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 // VARIABLES
 // Colors
 // primary colors
+$tomato: hsl(4, 100%, 67%);
 // neutral colors
+$dark_slate_grey: hsl(234, 29%, 20%);
+$charcoal_grey: hsl(235, 18%, 26%);
+$grey: hsl(231, 7%, 60%);
+$white: hsl(0, 0%, 100%);
 // Typography
 // font-family
+$ff: "Roboto", sans-serif;
 // font-weight
+$fw_regular: 400;
+$fw_bold: 700;
 // font-size
+$fs_bodyCopy: 1.6rem;
 // Breakpoints
 $mobile: 640px;
 $tablet: 768px;
