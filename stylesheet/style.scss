@@ -72,9 +72,9 @@ body {
 }
 
 .wrapper {
-  width: 37.5rem;
-  border: solid black 2px;
+  max-width: 37.5rem;
   min-height: 100vh;
+  //border: solid black 2px;
 }
 
 header {
