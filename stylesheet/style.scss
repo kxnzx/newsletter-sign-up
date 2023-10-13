@@ -116,6 +116,9 @@ form {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    label {
+      font-weight: $fw_bold;
+    }
   }
   input {
     margin-top: 1rem;
@@ -124,6 +127,8 @@ form {
 
 #error {
   display: block;
+  color: $tomato;
+  font-weight: $fw_bold;
 }
 
 input,

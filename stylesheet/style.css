@@ -91,12 +91,17 @@ form .row {
   align-items: center;
   justify-content: space-between;
 }
+form .row label {
+  font-weight: 700;
+}
 form input {
   margin-top: 1rem;
 }
 
 #error {
   display: block;
+  color: hsl(4deg, 100%, 67%);
+  font-weight: 700;
 }
 
 input,
