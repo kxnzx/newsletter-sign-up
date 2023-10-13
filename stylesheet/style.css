@@ -60,7 +60,7 @@ header {
 }
 
 main {
-  padding: 4.5rem 2.5rem 4rem 2.5rem;
+  padding: 4.5rem 2.5rem 0rem 2.5rem;
 }
 main p {
   margin-top: 2.5rem;
@@ -96,6 +96,7 @@ form .row label {
 }
 form input {
   margin-top: 1rem;
+  border: solid 1px hsl(231deg, 7%, 60%);
 }
 
 #error {
@@ -116,6 +117,9 @@ button {
 
 #submit_button {
   margin-top: 1.5rem;
+  border: solid 1px hsl(234deg, 29%, 20%);
+  background-color: hsl(234deg, 29%, 20%);
+  color: hsl(0deg, 0%, 100%);
 }
 
 .succes_message {
@@ -142,9 +146,5 @@ button {
 }
 
 .display_message {
-  display: block;
-}
-
-footer {
   display: block;
 }/*# sourceMappingURL=style.css.map */
