@@ -95,7 +95,7 @@ main {
     margin-top: 2.5rem;
     li {
       display: flex;
-      gap: 1rem;
+      gap: 1.5rem;
     }
     li:not(:first-child) {
       margin-top: 1.5rem;
@@ -107,6 +107,7 @@ main {
 }
 
 form {
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   max-width: 32.5rem;

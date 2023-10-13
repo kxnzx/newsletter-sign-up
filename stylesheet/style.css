@@ -70,7 +70,7 @@ main ul {
 }
 main ul li {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 main ul li:not(:first-child) {
   margin-top: 1.5rem;
@@ -80,6 +80,7 @@ main ul li:before {
 }
 
 form {
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   max-width: 32.5rem;
