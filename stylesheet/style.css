@@ -120,6 +120,7 @@ button {
   border: solid 1px hsl(234deg, 29%, 20%);
   background-color: hsl(234deg, 29%, 20%);
   color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
 }
 
 .succes_message {
