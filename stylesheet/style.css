@@ -85,6 +85,15 @@ form {
   flex-direction: column;
   max-width: 32.5rem;
 }
+form .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+form input {
+  margin-top: 1rem;
+}
 
 #error {
   display: block;
