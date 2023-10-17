@@ -99,6 +99,10 @@ form input {
   outline: none;
 }
 
+form.error input {
+  border-color: hsl(4deg, 100%, 67%);
+}
+
 #error {
   display: block;
   color: hsl(4deg, 100%, 67%);

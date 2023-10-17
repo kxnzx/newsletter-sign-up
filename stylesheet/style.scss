@@ -127,6 +127,10 @@ form {
   }
 }
 
+form.error input {
+  border-color: $tomato;
+}
+
 #error {
   display: block;
   color: $tomato;
