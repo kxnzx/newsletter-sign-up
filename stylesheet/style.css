@@ -96,6 +96,7 @@ form .row label {
 form input {
   margin-top: 1rem;
   border: solid 1px hsl(231deg, 7%, 60%);
+  outline: none;
 }
 
 #error {
