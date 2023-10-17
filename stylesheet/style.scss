@@ -4,6 +4,7 @@
 // Colors
 // primary colors
 $tomato: hsl(4, 100%, 67%);
+$light_tomato: lighten($tomato, 30%);
 // neutral colors
 $dark_slate_grey: hsl(234, 29%, 20%);
 $charcoal_grey: hsl(235, 18%, 26%);
@@ -129,6 +130,8 @@ form {
 
 form.error input {
   border-color: $tomato;
+  color: $tomato;
+  background-color: $light_tomato;
 }
 
 #error {

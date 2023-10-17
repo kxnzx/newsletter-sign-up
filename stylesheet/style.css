@@ -101,6 +101,8 @@ form input {
 
 form.error input {
   border-color: hsl(4deg, 100%, 67%);
+  color: hsl(4deg, 100%, 67%);
+  background-color: #fff1f0;
 }
 
 #error {
