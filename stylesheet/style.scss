@@ -180,6 +180,10 @@ button {
     margin-right: auto;
     b {
       font-size: 4rem;
+      &:before {
+        content: url(../assets/images/icon-success.svg);
+        display: block;
+      }
     }
     p {
       span {
