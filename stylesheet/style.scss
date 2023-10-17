@@ -3,6 +3,8 @@
 // VARIABLES
 // Colors
 // primary colors
+$watermelon: hsl(347, 100%, 66%);
+$halloween: hsl(13, 100%, 62%);
 $tomato: hsl(4, 100%, 67%);
 $light_tomato: lighten($tomato, 30%);
 // neutral colors
@@ -125,6 +127,7 @@ form {
     margin-top: 1rem;
     border: solid 1px $grey;
     outline: none;
+    cursor: pointer;
   }
 }
 
@@ -149,14 +152,19 @@ button {
 // Buttons global
 button {
   cursor: pointer;
-}
-
-#submit_button {
-  margin-top: 1.5rem;
   border: solid 1px $dark_slate_grey;
   background-color: $dark_slate_grey;
   color: $white;
   font-weight: $fw_bold;
+  &:hover {
+    border: none;
+    background-color: $tomato; /* For browsers that do not support gradients */
+    background-image: linear-gradient(45deg, $watermelon, $halloween);
+  }
+}
+
+#submit_button {
+  margin-top: 1.5rem;
 }
 
 // Toggle this class on and off in JS
