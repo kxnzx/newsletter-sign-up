@@ -59,7 +59,8 @@ body {
   .wrapper {
     background-color: hsl(0deg, 0%, 100%);
     display: grid;
-    place-items: center;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: 50rem 43rem;
     grid-template-rows: 64rem;
     width: 93rem;
