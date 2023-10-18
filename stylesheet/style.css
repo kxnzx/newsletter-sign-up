@@ -153,6 +153,7 @@ button:hover {
 .succes_message .container b:before {
   content: url(../assets/images/icon-success.svg);
   display: block;
+  margin-bottom: 4rem;
 }
 .succes_message .container p span {
   font-weight: bold;
