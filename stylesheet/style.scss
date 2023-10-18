@@ -83,10 +83,11 @@ body {
   @media screen and (min-width: $desktop) {
     background-color: $white;
     display: grid;
+    place-items: center;
     grid-template-columns: 50rem 43rem;
+    grid-template-rows: 64rem;
     width: 93rem;
     border-radius: 40px;
-    padding: 2.5rem;
   }
 }
 
@@ -98,12 +99,13 @@ header {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   @media screen and (min-width: $desktop) {
-    height: 100%;
+    height: 59rem;
     border-radius: 15px;
     // start / end
     grid-column: 2 / 3;
     grid-row: 1 / 3;
     background-image: url(../assets/images/illustration-sign-up-desktop.svg);
+    //background-size: contain;
     max-width: 40rem;
   }
 }
