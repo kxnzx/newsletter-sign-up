@@ -82,6 +82,7 @@ body {
 
 header {
   background-color: $tomato;
+  background-image: url(../assets/images/illustration-sign-up-mobile.svg);
   height: 28.5rem;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -202,4 +203,11 @@ button {
 // Add this class in JS
 .display_message {
   display: block;
+}
+
+footer {
+  color: $dark_slate_grey;
+  a {
+    color: $watermelon;
+  }
 }
