@@ -171,6 +171,7 @@ button:hover {
   border: none;
   background-color: hsl(4deg, 100%, 67%); /* For browsers that do not support gradients */
   background-image: linear-gradient(45deg, hsl(347deg, 100%, 66%), hsl(13deg, 100%, 62%));
+  box-shadow: hsl(347deg, 100%, 66%) 0px 20px 40px -12px, hsl(13deg, 100%, 62%) 0px 18px 26px -18px;
 }
 
 #submit_button {
@@ -187,25 +188,39 @@ button:hover {
 @media screen and (min-width: 1024px) {
   .succes_message {
     background-color: hsl(234deg, 29%, 20%);
+    padding: 0;
+    padding-top: 15%;
   }
 }
 .succes_message .container {
   max-width: 32.5rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 @media screen and (min-width: 1024px) {
   .succes_message .container {
     background-color: hsl(0deg, 0%, 100%);
+    max-width: 50rem;
+    padding: 4.7rem 6rem 6rem;
+    border-radius: 40px;
   }
 }
 .succes_message .container b {
   font-size: 4rem;
 }
+@media screen and (min-width: 1024px) {
+  .succes_message .container b {
+    max-width: 37.4rem;
+  }
+}
 .succes_message .container b:before {
   content: url(../assets/images/icon-success.svg);
   display: block;
   margin-bottom: 4rem;
+}
+@media screen and (min-width: 1024px) {
+  .succes_message .container p {
+    max-width: 37.4rem;
+  }
 }
 .succes_message .container p span {
   font-weight: bold;
@@ -217,6 +232,7 @@ button:hover {
 @media screen and (min-width: 1024px) {
   .succes_message .container button {
     margin-top: 4rem;
+    max-width: 37.4rem;
   }
 }
 
