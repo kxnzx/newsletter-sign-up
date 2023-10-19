@@ -53,7 +53,6 @@ body {
 
 .wrapper {
   width: 37.5rem;
-  border: solid black 2px;
 }
 @media screen and (min-width: 1024px) {
   .wrapper {
@@ -97,7 +96,6 @@ main {
     max-width: 37.5rem;
     padding: 0;
     margin: 0 auto;
-    border: solid black 1px;
   }
 }
 main p {
@@ -186,10 +184,20 @@ button:hover {
   inset: 0;
   padding: 25rem 3rem 0rem;
 }
+@media screen and (min-width: 1024px) {
+  .succes_message {
+    background-color: hsl(234deg, 29%, 20%);
+  }
+}
 .succes_message .container {
   max-width: 32.5rem;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 1024px) {
+  .succes_message .container {
+    background-color: hsl(0deg, 0%, 100%);
+  }
 }
 .succes_message .container b {
   font-size: 4rem;
@@ -205,6 +213,11 @@ button:hover {
 .succes_message .container button {
   width: 100%;
   margin-top: 20rem;
+}
+@media screen and (min-width: 1024px) {
+  .succes_message .container button {
+    margin-top: 4rem;
+  }
 }
 
 .display_message {
