@@ -78,7 +78,8 @@ body {
 }
 
 .wrapper {
-  max-width: 64rem;
+  //max-width: 64rem;
+  border: solid black 2px;
   @media screen and (min-width: $xl_tablet) {
     background-color: $white;
     display: grid;

@@ -52,7 +52,7 @@ body {
 }
 
 .wrapper {
-  max-width: 64rem;
+  border: solid black 2px;
 }
 @media screen and (min-width: 960px) {
   .wrapper {
