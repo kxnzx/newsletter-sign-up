@@ -52,7 +52,9 @@ body {
 }
 
 .wrapper {
-  border: solid black 2px;
+  max-width: 96rem;
+  width: 100%;
+  border: solid 1px black;
 }
 @media screen and (min-width: 960px) {
   .wrapper {
@@ -96,6 +98,14 @@ main {
     max-width: 37.5rem;
     padding: 0;
     margin: 0 auto;
+  }
+}
+main h1 {
+  font-size: 4rem;
+}
+@media screen and (min-width: 960px) {
+  main h1 {
+    font-size: 5.6rem;
   }
 }
 main p {
