@@ -54,7 +54,6 @@ body {
 .wrapper {
   max-width: 96rem;
   width: 100%;
-  border: solid 1px black;
 }
 @media screen and (min-width: 960px) {
   .wrapper {
@@ -129,7 +128,7 @@ form {
   margin-top: 4rem;
   display: flex;
   flex-direction: column;
-  max-width: 32.5rem;
+  max-width: 45rem;
 }
 @media screen and (min-width: 960px) {
   form {
