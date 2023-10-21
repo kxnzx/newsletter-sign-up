@@ -10,6 +10,7 @@ Your users should be able to:
 - See hover and focus states for all interactive elements on the page
 */
 
+// Using strict mode is helpful since it helps you to catch and identify certain errors
 "use strict";
 
 const form = document.getElementById("form");
@@ -18,7 +19,7 @@ const dismiss = document.getElementById("dismiss_button");
 const email = document.getElementById("email");
 const mirror = document.getElementById("users_email");
 
-// Mirror input into succes message:
+// Mirror the input value into the succes message:
 email.addEventListener("input", function (event) {
   mirror.innerText = event.target.value.split("").join("");
 });
