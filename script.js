@@ -10,7 +10,7 @@ Your users should be able to:
 - See hover and focus states for all interactive elements on the page
 */
 
-// Using strict mode is helpful since it helps you to catch and identify certain errors
+// Using strict mode helps you to catch and identify certain errors
 "use strict";
 
 const form = document.getElementById("form");
