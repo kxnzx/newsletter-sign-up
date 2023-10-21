@@ -80,6 +80,7 @@ body {
 .wrapper {
   max-width: 96rem;
   width: 100%;
+  min-height: 100vh;
   @media screen and (min-width: $xl_tablet) {
     background-color: $white;
     display: grid;
@@ -89,6 +90,7 @@ body {
     grid-template-rows: 64rem;
     max-width: 93rem;
     border-radius: 40px;
+    min-height: auto;
   }
 }
 
@@ -233,8 +235,10 @@ button {
     }
     b {
       font-size: 4rem;
+      line-height: 1;
       @media screen and (min-width: $xl_tablet) {
         max-width: 37.4rem;
+        font-size: 5.6rem;
       }
       &:before {
         content: url(../assets/images/icon-success.svg);
