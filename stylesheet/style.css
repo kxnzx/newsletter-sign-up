@@ -150,6 +150,9 @@ form input {
   outline: none;
   cursor: pointer;
 }
+form input:hover {
+  border-color: hsl(234deg, 29%, 20%);
+}
 
 form.error input {
   border-color: hsl(4deg, 100%, 67%);

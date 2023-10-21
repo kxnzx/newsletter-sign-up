@@ -167,6 +167,9 @@ form {
     border: solid 1px $grey;
     outline: none;
     cursor: pointer;
+    &:hover {
+      border-color: $dark_slate_grey;
+    }
   }
 }
 
