@@ -54,5 +54,5 @@ function close() {
   document.getElementById("email").value = "";
   window.location.reload();
 }
-
+// Call the function close() when dismiss button is clicked
 dismiss.addEventListener("click", close);
