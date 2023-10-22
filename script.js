@@ -55,4 +55,4 @@ function close() {
   window.location.reload();
 }
 // Call the function close() when dismiss button is clicked
-dismiss.addEventListener("click", close);
+dismiss.onclick = close;
