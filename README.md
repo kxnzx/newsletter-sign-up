@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- View my Solution on [Frontend Mentor]()
-- View the [Live Site]()
+- View my Solution on [Frontend Mentor](https://www.frontendmentor.io/solutions/newsletter-signup-with-vanilla-js-9NGvIiTmeV)
+- View the [Live Site](https://kxnzx.github.io/newsletter-sign-up/)
 
 ## My process
 
