@@ -63,6 +63,8 @@ Users should be able to:
 
 ### What I learned
 
+I am in the process of completing a JavaScript course. At first I couldn't understand a single line of code. Now I am able to read what the code means on a basic level. I also learned how to use the console. This is just the tip of the iceberg. There is so much to learn and so many ways of writing code.
+
 ```js
 "use strict";
 
